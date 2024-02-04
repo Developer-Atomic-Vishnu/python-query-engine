@@ -63,7 +63,7 @@ The AI Query Engine consists of three major layers and one minor layer:
 
   ```bash
   git clone [https://github.com/your-username/ai-query-engine.git](https://github.com/your-username/ai-query-engine.git)
-  
+  ```
 
 2. **Set up Azure Functions Environment:**
 
