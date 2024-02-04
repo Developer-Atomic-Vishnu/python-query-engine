@@ -1,0 +1,3 @@
+streamlit
+requests # if this cause problems you can remove it.
+python-dotenv

@@ -1,0 +1,15 @@
+[theme]
+primaryColor="#3498db"  # Soft and vibrant blue primary
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#e5f3fe"  # Lighter complementary blue background
+textColor="#333333"  # Dark gray text for readability
+font="Poppins Light"
+ #Consider adding an accent color configuration, like:
+ #accentColor="#f9a84d"  # Light orange accent for CTAs
+
+#[theme]
+#primaryColor = "#575fe8"
+#backgroundColor = "#f5£7£3"
+#secondaryBackgroundColor = "#c9eab8"
+#textColor = "#262730"
+#font = "Poppins Light"
