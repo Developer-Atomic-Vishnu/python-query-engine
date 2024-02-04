@@ -59,5 +59,44 @@ The AI Query Engine consists of three major layers and one minor layer:
 
 ### Setup Instructions
 
-1. Clone this repository:
+1. **Clone the Repository:**
+
+  ```bash
+  git clone [https://github.com/your-username/ai-query-engine.git](https://github.com/your-username/ai-query-engine.git)
+  
+
+2. **Set up Azure Functions Environment:**
+
+  * Create a new Azure Functions project locally using Visual Studio Code.
+  * Copy the files from the `azure-functions-backend` folder in the cloned repository into the new project folder.
+  * Deploy the Azure Functions app to your Azure subscription.
+
+3. **Deploy GPT-35 Turbo Model:**
+
+  * Access the Azure OpenAI Service in your Azure portal.
+  * Deploy the GPT-35 Turbo model to your Azure OpenAI instance.
+
+4. **Configure API Key and Deployment Name:**
+
+  * In the Azure Functions `.env` file, update the following values with your actual credentials:
+    * `OPENAI_API_KEY`: Your GPT-35 Turbo API key
+    * `FUNCTIONS_WORKER_RUNTIME`: The runtime for your Azure Functions app (e.g., `python`)
+    * `AZURE_OPENAI_SERVICE_ENDPOINT`: The endpoint of your deployed GPT-35 Turbo model
+
+5. **Frontend Deployment Options:**
+
+  **Option 1: Direct Deployment to Localhost:**
+
+  1. Navigate to the `frontend` folder in the cloned repository.
+  2. Update the Azure Functions backend URL in the `.env` file within this folder.
+  3. Run the following command in your terminal:
+
+     bash
+     streamlit run main.py
+     ```
+
+  **Option 2: Deployment Using Docker Image:**
+
+  1. Build a Docker image of the frontend application.
+  2. Deploy the Docker image to your preferred container environment.
 

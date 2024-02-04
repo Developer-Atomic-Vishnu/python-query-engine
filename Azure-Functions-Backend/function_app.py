@@ -32,12 +32,12 @@ def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
    client = AzureOpenAI(
        api_key=os.getenv("OPENAI_API_KEY"),  # Load API key from .env file
        api_version="2023-07-01-preview",  # Specify API version
-       azure_endpoint="https://openai-models-streamlit.openai.azure.com/",  # Azure endpoint
+       azure_endpoint="<YOUR-OPENAI-ENDPOINT>",  # Azure endpoint
    )
 
    # Call the OpenAI API to generate a response based on the prompt
    completion = client.chat.completions.create(
-       model="dev-test-deployment",  # Specify the OpenAI model to use
+       model="<YOUR-DEPLOYMENT-NAME>",  # Specify the OpenAI model to use
        messages=[
            {
                "role": "user",  # Set the role of the first message as "user"
