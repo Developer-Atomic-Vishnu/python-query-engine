@@ -27,6 +27,9 @@ This document provides a comprehensive overview of the project, including its ar
 The AI Query Engine consists of three major layers and one minor layer:
 
 * **Frontend:** Developed using Streamlit, the frontend offers a user-friendly interface for interacting with the engine. Users can input their queries through a simple text box and receive results in a clear and concise format.
+
+![Frontend Look](look.png)
+
 * **Backend:** Deployed on Azure Functions for scalability, the backend utilizes Python to handle data processing and communication with the LLM.
 * **Large Language Model (LLM):** The GPT-35 Turbo LLM serves as the core of the engine, providing advanced natural language processing capabilities.
 * **Data Layer:** Users ingest their data into the model using RAG-based training in a vectorized data format. This allows the LLM to understand the data and respond to queries accurately.
