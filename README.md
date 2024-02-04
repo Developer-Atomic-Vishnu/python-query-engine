@@ -100,10 +100,10 @@ The AI Query Engine consists of three major layers and one minor layer:
   1. Build a Docker image of the frontend application.
   2. Deploy the Docker image to your preferred container environment.
 
-3. **Add Your Data Into Model**
+6. **Add Your Data Into Model**
 
   * Head on to Azure OpenAI Studio and where you deployed you model
   * In Add the files into the section of ADD YOUR DATA. (Data Format Should be: .pdf, .doc, etc)
   * Now, go ahead and proceed with it.
 
-4. **Congrats!!! here comes your Query Engine Enabled with Your Own Data**
+7. **Congrats!!! here comes your Query Engine Enabled with Your Own Data**
