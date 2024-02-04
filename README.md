@@ -1,4 +1,4 @@
-# AI Query Engine - Streamlit Frontend with GPT-35 Turbo LLM
+# AI Query Engine - Chat With Your Own Data
 
 ## Table of Contents
 
