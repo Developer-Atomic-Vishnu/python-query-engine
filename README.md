@@ -91,9 +91,9 @@ The AI Query Engine consists of three major layers and one minor layer:
   2. Update the Azure Functions backend URL in the `.env` file within this folder.
   3. Run the following command in your terminal:
     
-    ```bash
-    streamlit run main.py
-    ```
+ ```bash
+ streamlit run main.py
+ ```
 
   **Option 2: Deployment Using Docker Image:**
 
