@@ -1,2 +1,60 @@
-# python-chat-bot
-This repo contains the code for a chat bot developed using the streamlit
+# AI Query Engine - Streamlit Frontend with GPT-35 Turbo LLM
+
+## Table of Contents
+
+* [Introduction to Project](#introduction-to-project)
+* [Detailed Information](#detailed-information)
+    * [Architecture](#architecture)
+    * [Features](#features)
+    * [Benefits](#benefits)
+* [Installation Guide](#installation-guide)
+    * [Prerequisites](#prerequisites)
+    * [Setup Instructions](#setup-instructions)
+    * [Running the Application](#running-the-application)
+* [Contributing](#contributing)
+* [License](#license)
+
+## Introduction to Project
+
+This project is an open-source AI Query Engine that allows you to ask questions and retrieve insights from your own data. It leverages the power of the GPT-35 Turbo language model to provide natural language understanding and query processing, delivering relevant and informative answers. 
+
+This document provides a comprehensive overview of the project, including its architecture, features, and benefits. It also explains how to install and run the application, and outlines the process for contributing to the project.
+
+## Detailed Information
+
+### Architecture
+
+The AI Query Engine consists of three major layers and one minor layer:
+
+* **Frontend:** Developed using Streamlit, the frontend offers a user-friendly interface for interacting with the engine. Users can input their queries through a simple text box and receive results in a clear and concise format.
+* **Backend:** Deployed on Azure Functions for scalability, the backend utilizes Python to handle data processing and communication with the LLM.
+* **Large Language Model (LLM):** The GPT-35 Turbo LLM serves as the core of the engine, providing advanced natural language processing capabilities.
+* **Data Layer:** Users ingest their data into the model using RAG-based training in a vectorized data format. This allows the LLM to understand the data and respond to queries accurately.
+
+### Features
+
+* **Natural Language Queries:** Ask questions in plain language, without the need for complex syntax or predefined commands.
+* **Informative Responses:** Receive comprehensive answers that go beyond simple keyword matching, utilizing factual information and contextual understanding.
+* **Visualization Support:** Visualize key insights and trends with integrated visualization tools.
+* **Customization:** Tailor the engine to your specific needs by defining custom question structures and response formats.
+
+### Benefits
+
+* **Unlock Data Insights:** Easily access and explore valuable information hidden within your data.
+* **Improve Decision-Making:** Gain deeper understanding of your data to make informed and data-driven decisions.
+* **Boost Productivity:** Save time and effort by quickly finding answers to your questions.
+* **Open-Source:** Contribute to and benefit from the collective knowledge of the open-source community.
+
+## Installation Guide
+
+### Prerequisites
+
+* Python 3.7+
+* Streamlit
+* Azure Functions Core Tools
+* A valid GPT-35 Turbo API key
+
+### Setup Instructions
+
+1. Clone this repository:
+
